@@ -1,0 +1,17 @@
+{
+  "name": "smart-parking-auth-api",
+  "version": "1.0.0",
+  "description": "Day 6: JWT authentication, role/ownership authorization, and reservation conflict handling for a smart parking service.",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "demo": "node scripts/demo-edge-cases.js",
+    "test": "node --test tests/parkingAuth.test.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
